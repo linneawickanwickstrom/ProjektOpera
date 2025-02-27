@@ -41,7 +41,7 @@
                     </p>
                 </header>
                 <nav id="sitenav">
-                    <a href="index.html">Hem</a> |
+                    <a href="">Hem</a> |
                     <a href="Anne-Maries_brev.htm">Brev 1</a> |
                     <a href="">Brev 2</a> |
                     <a href="">Ladda ned</a> 
