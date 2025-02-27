@@ -17,3 +17,7 @@ Använd imagecollection.xsl som transformationsscenario (oxygens terminologi), t
 
 Om du vill kan du ta den resulterande html-filen och göra en kopia som du döper till index.html och skapar en "första sida" med en presentation av samlingen direkt med html-redigering för publicering.
 
+## Anpassning av transformationen
+
+Fr a kan det uppstå behov av att extrahera särskilda metadata från TEI-filens xenodata till html-derivaten, utöver den som exemplet ger, men även andra önskemål om mindre anpassningar kan uppstå. Ta då kontakt med Mikael om du behöver hjälp.
+
