@@ -53,7 +53,7 @@
                         
                         <div class="row">
                             <!-- introductory text to appear before collection 
-                            Please edit for you own adaptation.
+                            Please edit for your own adaptation.
                             -->
                            
                                 
@@ -87,7 +87,8 @@
                             
                         </div>    
                         
-                        <!-- Iterate over all TEI elements residing in the teiCorpus -->
+                        <!-- xsl:for-each gör att innehållet i xsl-element gör samma sak med
+                        alla TEI-element i din teiCorpus -->
                         <xsl:for-each select="/tei:teiCorpus/tei:TEI">
                
                         
@@ -118,16 +119,15 @@
                                 <article class="metadata">
                                     <h2>Metadata</h2>
                                     <!--
-                                        All the if clauses below should be harmonized with
-                                        a) what metadata is present in the TEI-element, as
-                                        components of the teiHeader (including xenoData exported
-                                        from the image file itself), and
-                                        b) what is deemed relevant for the public presentation 
-                                        of the contents of the project.
+                                        Justera if-satserna nedan beroende på vilka metadata från
+                                        TEI/XML-källan du vill ha med i presentationen. Ett enkelt sätt
+                                        att göra det på är att kopiera hela if-satsen och justera värdet
+                                        (XPath-uttrycket) till attributet test och textetiketten.
                                         
-                                        Remember that not all metadata need to be shown, while this
-                                        is not a motive for deleting them in the sources (image 
-                                        files and TEI sources).
+                                        Kom ihåg att du väljer vilka metadata du ska ha med, de som finns
+                                        i TEI/XML behöver inte (ska inte) raderas om du inte finner dem
+                                        felaktiga.
+                                    
                                     -->
                                     <h3>
                                         <xsl:apply-templates select=".//tei:figDesc"/>

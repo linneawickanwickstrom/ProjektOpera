@@ -7,7 +7,7 @@ TEI-filen exemplifierar hur TEI (eller mer specifikt teiCorpus) kan användas f�
 
 Poängen är att såväl bildfiler som TEI-filen kan bära på väsentlig metadata och möjliggöra en flexiblare och säkrare organisation av en bildsamling.
 
-*Förfarandet är endast ett förslag* och bygger på att du kan redigera och exportera metadata i bildfilerna, företrädesvis med det kommandoradsbaserade exiftools, för vilket det finns guidelines på annan plats.
+*Förfarandet är endast ett förslag* och bygger på att du kan redigera och exportera metadata i bildfilerna, företrädesvis med det kommandoradsbaserade **exiftool**, för vilket det finns guidelines på annan plats.
 
 ## Tillämpning för publicering
 
