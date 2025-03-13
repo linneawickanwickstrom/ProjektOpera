@@ -11,13 +11,13 @@
     <!-- This XLST template is intended to be used with a teiCorpus without contents to show in 
         any text element -->
 
-    <!-- transform the root element (TEI) into an HTML template -->
+    <!-- transform the root element into an HTML template -->
     <xsl:template match="tei:teiCorpus">
         <xsl:text disable-output-escaping='yes'>&lt;!DOCTYPE html&gt;</xsl:text><xsl:text>&#xa;</xsl:text>
         <html lang="sv" xml:lang="sv">
             <head>
                 <title>
-                    <!-- add the title from the metadata. This is what will be shown
+                    <!-- add the title for the whole collection from the metadata in the common teiHeader. This is what will be shown
                     on your browsers tab-->
                     <xsl:value-of select="//tei:teiCorpus/tei:teiHeader//tei:title"/>
                 </title>
@@ -32,7 +32,7 @@
             </head>
             <body>
                 <header>
-                    <h1>
+                    <h1> <!-- We choose the contents of the html:title to be the same as the html:h1 -->
                         <xsl:apply-templates select="//tei:teiCorpus/tei:teiHeader//tei:title"/>
                     </h1>
                     
@@ -41,6 +41,8 @@
                     </p>
                 </header>
                 <nav id="sitenav">
+                    <!-- Assuming you will have a set of parallell web pages.
+                    You might only have one, so you'll have to edit this navigation bar-->
                     <a href="">Hem</a> |
                     <a href="Anne-Maries_brev.htm">Brev 1</a> |
                     <a href="">Brev 2</a> |
@@ -58,6 +60,9 @@
                            
                                 
                                 <div id="introduction">
+                                    <!-- This is actually kind of assuming all letters
+                                    have been treated exacly the same. 
+                                    -->
                                     <p>
                                         <xsl:apply-templates select="/tei:teiCorpus/tei:teiHeader/tei:profileDesc/tei:creation"/>
                                     </p>
@@ -77,7 +82,7 @@
                                         publicerade. De senare finns i <a href="https://litteraturbanken.se/f%C3%B6rfattare/StrindbergA/titlar/StrindbergsBrev20/sida/3/faksimil">Litteraturbanken</a>.
                                         
                                     </p>
-                                    
+                                    <!-- These keywords are extracted from the tei:profileDesc -->
                                     <p><b>Nyckelord:</b> <xsl:for-each select="/tei:teiCorpus/tei:teiHeader/tei:profileDesc/tei:textClass/tei:keywords/tei:list/tei:item">
                                         <br/><xsl:apply-templates select="."/> 
                                     </xsl:for-each></p>
@@ -191,7 +196,8 @@
     process underneath (nested in) tei lb's. Therefore the XSLT processor does not need to look for templates to
     apply to the nodes nested within it.-->
 
-    <!-- we turn the tei head element (headline) into an html h2 element-->
+    <!-- we turn the tei head element (headline) into an html h2 element, reserving the html:h1
+    for the first heading only -->
     <xsl:template match="tei:head">
         <h2>
             <xsl:apply-templates/>
@@ -201,12 +207,14 @@
     <!-- transform tei paragraphs into html paragraphs -->
     <xsl:template match="tei:p">
         <p>
-            <!-- apply matching templates for anything that was nested in tei:p -->
+            <!-- apply matching templates for anything that was contained in tei:p -->
             <xsl:apply-templates/>
         </p>
     </xsl:template>
 
-    <!-- transform tei del into html del -->
+    <!-- transform tei:del into html:del. They actually have a
+    close relationship in meaning.
+    -->
     <xsl:template match="tei:del">
         <del>
             <xsl:apply-templates/>
@@ -221,7 +229,7 @@
     </xsl:template>
 
     <!-- transform tei hi (highlighting) with the attribute @rend="u" into html u elements -->
-    <!-- how to read the match? "For all tei:hi elements that have a rend attribute with the value "u", do the following" -->
+    <!-- how to read the match? "For all tei:hi elements that have a rend attribute with the value 'u', do the following". Note the need for single quotes inside double quotes -->
     <xsl:template match="tei:hi[@rend = 'u']">
         <u>
             <xsl:apply-templates/>
