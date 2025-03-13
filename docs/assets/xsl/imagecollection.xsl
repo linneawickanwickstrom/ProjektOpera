@@ -6,7 +6,7 @@
     xmlns:XMP-exif='http://ns.exiftool.org/XMP/XMP-exif/1.0/'
     xmlns:IFD0='http://ns.exiftool.org/EXIF/IFD0/1.0/'
     xmlns:XMP-xmp='http://ns.exiftool.org/XMP/XMP-xmp/1.0/'
-    xmlns:html="http://www.w3.org/1999/xhtml" exclude-result-prefixes="xs rdf tei IFD0 XMP-exif XMP-xmp html" version="2.0">
+    xmlns:html="http://www.w3.org/1999/xhtml" exclude-result-prefixes="xs rdf tei IFD0 XMP-exif XMP-xmp html" version="1.0">
     <xsl:output method="html"/>
     <!-- This XLST template is intended to be used with a teiCorpus without contents to show in 
         any text element -->
