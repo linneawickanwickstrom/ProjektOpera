@@ -31,7 +31,7 @@
         <profileDesc>
             <textDesc>
                 <!-- Här anger du vad som kan vara tillämpligt. Kontrollera mot TEI guidelines 
-                för möjliga elements semantik. Om du dokumenterar en annan semantik så kan det vara gångbart också.
+                för möjliga elements semantik. Om du dokumenterar en annan semantik (i encodingDesc) så kan det vara gångbart också.
                 -->
                 <channel></channel>
                 <constitution></constitution>
