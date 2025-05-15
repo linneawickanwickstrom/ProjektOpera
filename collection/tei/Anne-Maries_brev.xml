@@ -9,23 +9,50 @@
         -->
         <fileDesc>
             <titleStmt>
-                <title>Digitaliserad version av masker från Göteborgsoperan </title>
-                <author ref="https://libris.kb.se/64jlktqq1m3pz7n#it">Anne-Marie Strindberg</author>
-                <principal>Grupp M</principal>
+                <title>Digitalisering av masker från Göteborgsoperan</title>
+                <author>Linnéa Wickström</author>
+                <author>Ellen Blåberg</author>
+                <author>Klara Asklund</author>
+              
             </titleStmt>
+            
             <publicationStmt>
-                <authority> Operan </authority>
+                
+                <publisher> Bibliotekshögskolan i Borås </publisher>
+                <pubPlace> GitHub </pubPlace>
                 <date when="2025-05">Maj 2025</date>
                 <availability>
                     <p> Vid publicering skall Göteborgsoperans namn alltid utsättas vid bilden
                         eller anges i bildförteckningen. </p>
                 </availability>
+                
+                <authority> Göteborgsoperan </authority>
+                
             </publicationStmt>
+            
             <sourceDesc>
-                <p>Maskerna återfinns i Göteborgsoperans rekvisitaförråd.
+                
+                <p> Samlingen består av elva masker som använts vid olika produktioner vid Göteborgsoperan.
+                    
              </p>
+                
+                <p>Maskerna är vid digitaliseringstillfället i gott skick, med undantag för ett par masker med synliga skador. </p>
+                
+                <p>Maskerna återfinns i Göteborgsoperans rekvisitaförråd.</p>
+                
             </sourceDesc>
+            
         </fileDesc>
+        
+        <encodingDesc>
+            <projectDesc> 
+                <p>Projekt med syfte att digitalisera masker från Göteborgsoperan.</p>
+                <p>Digitaliseringprojekt som del av kursen "Digitalisering för bevarande och tillgänglighet" vid Bibliotekshögskolan i Borås.</p>
+               
+            </projectDesc>
+        </encodingDesc>
+        
+        
         <profileDesc>
             <textDesc>
                 <!-- Här anger du vad som kan vara tillämpligt. Kontrollera mot TEI guidelines 
@@ -51,10 +78,12 @@
                 -->
                 <keywords scheme="https://www.getty.edu/research/tools/vocabularies/aat/">
                     <list>
-                        <item><ref target="http://vocab.getty.edu/page/aat/300025492"
-                                >författare</ref></item>
-                        <item><ref target="http://vocab.getty.edu/page/aat/300026877"
-                                >korrespondens</ref></item>
+                        <item><ref target="http://vocab.getty.edu/page/aat/300138758"
+                                >Masks (costume)</ref></item>
+                        <item><ref target="http://vocab.getty.edu/page/aat/300379317"
+                            >dance masks</ref></item>
+                        
+                       
                     </list>
                 </keywords>
             </textClass>
