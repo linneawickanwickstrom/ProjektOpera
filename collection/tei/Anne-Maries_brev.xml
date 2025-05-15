@@ -4,9 +4,7 @@
 	schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <teiCorpus xmlns="http://www.tei-c.org/ns/1.0">
     <teiHeader>
-        <!-- Det som anges i den här headern hänför sig till hela samlingen av 
-            bilder
-        -->
+       
         <fileDesc>
             <titleStmt>
                 <title>Digitalisering av masker från Göteborgsoperan</title>
@@ -15,6 +13,8 @@
                 <author>Klara Asklund</author>
               
             </titleStmt>
+            
+            <extent>xxx GB</extent>
             
             <publicationStmt>
                 
@@ -46,10 +46,20 @@
         
         <encodingDesc>
             <projectDesc> 
-                <p>Projekt med syfte att digitalisera masker från Göteborgsoperan.</p>
+                <p>Projekt med syfte att digitalisera masker tillhörande Göteborgsoperan.</p>
                 <p>Digitaliseringprojekt som del av kursen "Digitalisering för bevarande och tillgänglighet" vid Bibliotekshögskolan i Borås.</p>
                
             </projectDesc>
+            
+            <samplingDecl>
+                <p> Urval av masker från Göteborgsoperan har skett utifrån hantverksmässighet och projektets möjlighet att göra objekten rättvisa. </p>
+            </samplingDecl>
+            
+            <techDesc>
+                <p>Bilfångst gjord med Canon EOS 600D. Bildfiler i CR2 konverterades till TIFF för arkivering samt PNG för möjlig publicering. 
+                   Efterbehandladling i Photoshop för färgkorrigering, beskärning och inbäddad metadata. 
+                   </p>
+            </techDesc>
         </encodingDesc>
         
         
@@ -73,9 +83,7 @@
                     <date when="1911-06-27">27 juni 1911</date>
             </creation>
             <textClass>
-                <!-- Här dokumenterar du lämpligen från vilkan vokabulär du hämtat "ämnesorden", som alltså gäller hela samlingen även här. 
-                    Gettys Art and Architecture Thesaurus är sannolikt en rimlig vokabulär för många projekt
-                -->
+                
                 <keywords scheme="https://www.getty.edu/research/tools/vocabularies/aat/">
                     <list>
                         <item><ref target="http://vocab.getty.edu/page/aat/300138758"
