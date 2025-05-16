@@ -111,15 +111,14 @@
             så kan länkarna i stället peka på tiff-versionerna.
         -->
         <facsimile>
-            <surface xml:id="Brev_fr_AM_27_6_1911_r">
+            <surface xml:id="lejonmask_drama">
                 <figure>
-                    <label>Anne-Maries brev till August</label>
-                    <figDesc> Anne-Maries brev till August - första sidan </figDesc>
-                    <graphic xml:id="Brev_fr_AM_27_6_1911_r_pub"
-                        url="assets/img/Brev_fr_AM_27_6_1911_r.jpg"/>
+                    <label>Dramatisk bild av lejonmask</label>
+                    <figDesc>Lejonmask framifrån, dramatisk</figDesc>
+                    <graphic xml:id="LejonmaskDrama"
+                        url="länk_till_foto"/>
 
-                    <!-- I den här implementationen finns inga tumnagelsversioner
-                     -->
+                
                     <graphic xml:id="Brev_fr_AM_27_6_1911_r_thumb"
                         url="assets/img/Brev_fr_AM_27_6_1911_r_thumb.jpg"/>
 
@@ -353,6 +352,7 @@
             </body>
         </text>
     </TEI>
+   
     <TEI xml:id="S3">
         <teiHeader>
             <fileDesc>
