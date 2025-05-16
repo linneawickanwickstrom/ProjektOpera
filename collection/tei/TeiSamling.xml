@@ -88,10 +88,8 @@
         <teiHeader>
             <fileDesc>
                 <titleStmt>
-                    <title>Digitaliserad version av brev från Anne-Marie till <persName
-                            ref="https://libris.kb.se/tr574vdc33gk2cc#it">August</persName> : s. 1 </title>
-                    <author ref="https://libris.kb.se/64jlktqq1m3pz7n#it">Anne-Marie
-                        Strindberg</author>
+                    <title>Lejonmask</title>
+                    <author ref="https://www.opera.se/">Göteborgsoperan</author>
                 </titleStmt>
                 <publicationStmt>
                     <p> </p>
@@ -146,6 +144,7 @@
         </text>
      
     </TEI>
+    
     <TEI xml:id="S2">
         <teiHeader>
             <fileDesc>
