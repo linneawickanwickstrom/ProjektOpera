@@ -56,7 +56,7 @@
             </samplingDecl>
             
             <techDesc>
-                <p>Bilfångst gjord med Canon EOS 600D. Bildfiler i CR2 konverterades till TIFF för arkivering samt PNG för möjlig publicering. 
+                <p>Bilfångst gjord med Canon EOS 600D. Bildfiler i CR2 konverterades till TIFF för arkivering samt JPG för möjlig publicering. 
                    Efterbehandladling i Photoshop för färgkorrigering, beskärning och inbäddad metadata. 
                    </p>
             </techDesc>
@@ -64,24 +64,7 @@
         
         
         <profileDesc>
-            <textDesc>
-                <!-- Här anger du vad som kan vara tillämpligt. Kontrollera mot TEI guidelines 
-                för möjliga elements semantik. Om du dokumenterar en annan semantik (i encodingDesc) så kan det vara gångbart också.
-                -->
-                <channel></channel>
-                <constitution></constitution>
-                <derivation></derivation>
-                <domain></domain>
-                <factuality></factuality>
-                <interaction></interaction>
-                <preparedness></preparedness>
-                <purpose></purpose>
-            </textDesc>
-            <creation> Brev från <persName ref="https://libris.kb.se/64jlktqq1m3pz7n#it">Anne-Marie
-                    Strindberg</persName> till <persName
-                    ref="https://libris.kb.se/tr574vdc33gk2cc#it">August Strindberg</persName> den
-                    <date when="1911-06-27">27 juni 1911</date>
-            </creation>
+         
             <textClass>
                 
                 <keywords scheme="https://www.getty.edu/research/tools/vocabularies/aat/">
