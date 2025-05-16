@@ -118,12 +118,66 @@
                     <graphic xml:id="LejonmaskDrama"
                         url="länk_till_foto"/>
 
-                
-                    <graphic xml:id="Brev_fr_AM_27_6_1911_r_thumb"
-                        url="assets/img/Brev_fr_AM_27_6_1911_r_thumb.jpg"/>
-
                 </figure>
             </surface>
+            
+            <surface xml:id="lejonmask_front">
+            <figure>
+                <label>Lejonmask 1</label>
+                <figDesc>Lejonmask fotograferad framifrån, fast ljussättning.</figDesc>
+            <graphic xml:id="lejonmaskFront"
+                url="assets/img/Brev_fr_AM_27_6_1911_r_thumb.jpg"/>
+            </figure>
+            </surface>
+                
+                
+                <surface xml:id="lejonmask_sida1">
+                    <figure>
+                        <label>Lejonmask sida 1</label>
+                        <figDesc>Lejonmask fotograferad från sida, fast ljussättning.</figDesc>
+                        <graphic xml:id="lejonmasksida1"
+                            url="assets/img/Brev_fr_AM_27_6_1911_r_thumb.jpg"/>
+                    </figure>
+                </surface>
+                    
+                    
+                    
+                    <surface xml:id="lejonmask_sida2">
+                        <figure>
+                            <label>Lejonmask sida 2</label>
+                            <figDesc>Lejonmask fotograferad från sida, fast ljussättning.</figDesc>
+                            <graphic xml:id="lejonmasksida2"
+                                url="assets/img/Brev_fr_AM_27_6_1911_r_thumb.jpg"/>
+                        </figure>
+                        
+                    </surface>
+                        
+                        <surface xml:id="lejonmask_detalj1">
+                            <figure>
+                                <label>Lejonmask tänder</label>
+                                <figDesc> Detaljer av Lejonmask, fokus:tänder </figDesc>
+                                <graphic xml:id="lejonmaskdetalj1"
+                                    url="assets/img/Brev_fr_AM_27_6_1911_r_thumb.jpg"/>
+                            </figure>
+                        </surface>
+                            
+                            <surface xml:id="lejonmask_detalj2">
+                                <figure>
+                                    <label>Lejonmask baksida</label>
+                                    <figDesc> Detaljer av Lejonmask, fokus:baksida </figDesc>
+                                    <graphic xml:id="lejonmaskdetalj2"
+                                        url="assets/img/Brev_fr_AM_27_6_1911_r_thumb.jpg"/>
+                                </figure>
+                            </surface>
+                                
+                                <surface xml:id="lejonmask_detalj3">
+                                    <figure>
+                                        <label>Lejonmask panna</label>
+                                        <figDesc> Detaljer av Lejonmask, fokus:panna/överdel </figDesc>
+                                        <graphic xml:id="lejonmaskdetalj3"
+                                            url="assets/img/Brev_fr_AM_27_6_1911_r_thumb.jpg"/>
+                                    </figure>
+                                </surface>
         </facsimile>
 
         <!-- 
