@@ -180,21 +180,12 @@
                                 </surface>
         </facsimile>
 
-        <!-- 
-            text-elementet här nedan är inte strikt nödvändigt, eftersom headern följs av ett facsimile-element.
-            Om du inte behöver ett text-element kan du radera det
        
-       Om du använder imagecollection.xsl förs ingenting över från text-elementet, men om du reviderar den så kan
-       du lägga transkriberad text här, eller annat. Skulle det behövas så ta kontakt med Mikael för assistans.
-         
-         -->
-        <text>
             <body>
                 <div>
                     <p/>
                 </div>
             </body>
-        </text>
      
     </TEI>
     
@@ -202,7 +193,7 @@
         <teiHeader>
             <fileDesc>
                 <titleStmt>
-                    <title>Digitaliserad version av brev från Anne-Marie till <persName
+                    <title>gris_drama<persName
                             ref="https://libris.kb.se/tr574vdc33gk2cc#it">August</persName> S. 2 </title>
                     <author ref="https://libris.kb.se/64jlktqq1m3pz7n#it">Anne-Marie
                         Strindberg</author>
