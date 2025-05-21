@@ -66,20 +66,17 @@
                                     <p>
                                         <xsl:apply-templates select="/tei:teiCorpus/tei:teiHeader/tei:profileDesc/tei:creation"/>
                                     </p>
-                                  
+                                  <p>
                                         <xsl:apply-templates select="/tei:teiCorpus/tei:teiHeader/tei:fileDesc/tei:sourceDesc"/>
-                                        
+                                  </p>     
                                     
                                          
                                      
                                     <p>
-                                        Följande bilder återger avbildningar av brev fotograferade
-                                        av Kungliga Bibliotekets Foto- och reproenhet 2005. De har givits
-                                        till BHS i syfte att kunna fungera som övningsmaterial i samband
-                                        med kurser i digitalisering. Originalen finns i Kungliga Bibliotekets
-                                        samlingar - eller fanns där i alla fall vid nämnda tidpunkt - och tycks, 
-                                        till skillnad från August Strindbergs egenhändigt skrivna brev inte vara
-                                        publicerade. De senare finns i <a href="https://litteraturbanken.se/f%C3%B6rfattare/StrindbergA/titlar/StrindbergsBrev20/sida/3/faksimil">Litteraturbanken</a>.
+                                        Här visar vi digitaliseringen av masker från Göteborgsoperan. Detta projekt har genomförts inom ramarna för kursen
+                                        Digitalisering för bevarande vid Högskolan i Borås. 
+                                       Originalen finns i operans rekvisitaförråd. 
+                                        <a href="www.opera.se">Göteborgsoperan</a>.
                                         
                                     </p>
                                     <!-- These keywords are extracted from the tei:profileDesc -->
@@ -172,7 +169,7 @@
                         </a>
                       </div>
                       <div>
-                         2022 Wout Dillen with revisions for image collections 2024 by Mikael Gunnarsson.
+                         2025 Wout Dillen with revisions for image collections 2024 by Mikael Gunnarsson.
                       </div>
                     </div>
                 </div>
