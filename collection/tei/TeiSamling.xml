@@ -93,30 +93,39 @@
                 </titleStmt>
                 <publicationStmt>
                     <p> </p>
+               
+                <publisher> Bibliotekshögskolan i Borås </publisher>
+                    <authority> Göteborgsoperan </authority>
                 </publicationStmt>
                 <sourceDesc>
-                    <p/>
+                   <p>Lejonmask skapad för produktionen Kiss me Kate vid Göteborgsoperan.</p>
+                    <p>Skada på pannan, samt fäste på baksida.</p>
                 </sourceDesc>
+                
+                <encodingDesc>
+                    <techDesc>
+                        <p>Bilfångst gjord med Canon EOS 600D, samt EOS xxxx. Bildfiler i CR2 konverterades till TIFF för arkivering samt JPG för publicering. 
+                            Efterbehandladling i Photoshop för färgkorrigering, beskärning och inbäddad metadata. 
+                            Fotograf bild 1-3: Klara Asklund
+                            Fotograf bild 4-7: Linnéa Wickström
+                            Modell: Ellen Blåberg
+                        </p>
+                    </techDesc>
+                </encodingDesc>
             </fileDesc>
+            
+            <xenoData>
+                
 
         </teiHeader>
 
-        <!-- 
-            oXygen kan ge felmeddelanden för inklusionen av facsimile-element i corpusens enskilda TEI-delar, men det 
-            ska enligt TEI guidelines vara ett giltigt förfarande, så vi får ignorera det tills vidare. 
-            TBE Validation Service (https://teibyexample.org/exist/tools/TBEvalidator.htm) validerar utan anmärkning.
-            
-            Observera att det refereras till jpeg-versionerna och inte tiff-versionerna av avbildningarna. I de fall
-            du eventuellt endast vill ha TEI-filen som en platshållare och inte avser att generera en html-presentation
-            så kan länkarna i stället peka på tiff-versionerna.
-        -->
         <facsimile>
             <surface xml:id="lejonmask_drama">
                 <figure>
                     <label>Dramatisk bild av lejonmask</label>
                     <figDesc>Lejonmask framifrån, dramatisk</figDesc>
                     <graphic xml:id="LejonmaskDrama"
-                        url="länk_till_foto"/>
+                        url="https://github.com/linneawickanwickstrom/ProjektOpera/blob/main/docs/assets/img/Mask1_Lejon/Mask1_Lejon_4.jpg"/>
 
                 </figure>
             </surface>
