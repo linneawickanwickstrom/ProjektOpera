@@ -499,7 +499,7 @@
                 <label>Lejonmask 1</label>
                 <figDesc>Lejonmask fotograferad framifrån, fast ljussättning.</figDesc>
             <graphic xml:id="lejonmaskFront"
-                url="jpg"/>
+                url="https://raw.githubusercontent.com/linneawickanwickstrom/ProjektOpera/e1621e1193319348adb38f576b4459ee7bcca83f/docs/assets/img/Mask1_Lejon/Mask1_Lejon_2.jpg"/>
             </figure>
             </surface>
                 
@@ -509,7 +509,7 @@
                         <label>Lejonmask sida 1</label>
                         <figDesc>Lejonmask fotograferad från sida, fast ljussättning.</figDesc>
                         <graphic xml:id="lejonmasksida1"
-                            url="jpeg"/>
+                            url="https://raw.githubusercontent.com/linneawickanwickstrom/ProjektOpera/e1621e1193319348adb38f576b4459ee7bcca83f/docs/assets/img/Mask1_Lejon/Mask1_Lejon_1.jpg"/>
                     </figure>
                 </surface>
                     
