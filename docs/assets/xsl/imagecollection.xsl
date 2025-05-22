@@ -15,6 +15,9 @@
     <xsl:template match="tei:teiCorpus">
         <xsl:text disable-output-escaping='yes'>&lt;!DOCTYPE html&gt;</xsl:text><xsl:text>&#xa;</xsl:text>
         <html lang="sv" xml:lang="sv">
+            
+            
+           
             <head>
                 <title>
                     <!-- add the title for the whole collection from the metadata in the common teiHeader. This is what will be shown
@@ -75,8 +78,8 @@
                                     <p>
                                         Här visar vi digitaliseringen av masker från Göteborgsoperan. Detta projekt har genomförts inom ramarna för kursen
                                         Digitalisering för bevarande vid Högskolan i Borås. 
-                                       Originalen finns i operans rekvisitaförråd. 
-                                        <a href="www.opera.se">Göteborgsoperan</a>.
+                                       Originalen finns i Göteborgsoperans rekvisitaförråd. 
+                                       
                                         
                                     </p>
                                     <!-- These keywords are extracted from the tei:profileDesc -->
@@ -92,41 +95,87 @@
                         <!-- xsl:for-each gör att innehållet i xsl-element gör samma sak med
                         alla TEI-element i din teiCorpus -->
                         <xsl:for-each select="/tei:teiCorpus/tei:TEI">
-               
-                        
+                            
+                         
                         <div class="row">
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                           
+                            
+                        
+                        
+                        
+                         
+                        
+                        
                             <!-- first column: load the image residing in /assets/img folder -->
+                            
+                            
                             <div class="col-sm">
-                               <article class="scan">
-                                   <h2>Faksimil</h2>
-                                 
-                                <img width="500">
-                                    <xsl:attribute name="src">
-                                        <xsl:value-of select="./tei:facsimile/tei:surface/tei:figure/tei:graphic[1]/@url"/>
-                                    </xsl:attribute>
-                                    <xsl:attribute name="title">
-                                        <xsl:value-of select="./tei:facsimile/tei:surface/tei:figure/tei:label"/>
-                                    </xsl:attribute>
-                                    <xsl:attribute name="alt">
-                                        <xsl:value-of select="./tei:facsimile/tei:surface/tei:figure/tei:figDesc"/>
-                                    </xsl:attribute>
-                                </img>
-                                  
-                                  
-                                   <img width="500">
-                                       <xsl:attribute name="src">
-                                           <xsl:value-of select="./tei:facsimile/tei:surface/tei:figure/tei:graphic[1]/@url"/>
-                                       </xsl:attribute>
-                                       <xsl:attribute name="title">
-                                           <xsl:value-of select="./tei:facsimile/tei:surface/tei:figure/tei:label"/>
-                                       </xsl:attribute>
-                                       <xsl:attribute name="alt">
-                                           <xsl:value-of select="./tei:facsimile/tei:surface/tei:figure/tei:figDesc"/>
-                                       </xsl:attribute>
-                                   </img>
-                   
-                               </article>
+                            
+                            <article class="scan">
+                                <h2>Operamasker</h2>
+                                
+                                
+                                
+                                
+                               
+                                    
+                                        <img width="500">
+                                            
+                                            <xsl:attribute name="src">
+                                                <xsl:value-of select="./tei:facsimile/tei:surface/tei:figure/tei:graphic[1]/@url"/>
+                                            </xsl:attribute>
+                                            <xsl:attribute name="title">
+                                                <xsl:value-of select="./tei:facsimile/tei:surface/tei:figure/tei:label"/>
+                                            </xsl:attribute>
+                                            <xsl:attribute name="alt">
+                                                <xsl:value-of select="./tei:facsimile/tei:surface/tei:figure/tei:figDesc"/>
+                                            </xsl:attribute>
+                                            
+                                        
+                                    
+                                       
+                                            
+                                        </img>
+                                    
+                                    
+                                    
+                                    
+                                   
+                                
+                                
+                              
+                                
+                                
+                                
+                            </article>
                             </div>
+                            
+                            
+                            
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                              
                             <!-- second column: apply matching templates for anything you want
                             beside the facsimile -->
                             <div class="col-sm">
@@ -167,6 +216,7 @@
                                     </xsl:if>
                                     
                                 </article>
+                              
                             </div>
                         </div>         
                         </xsl:for-each>
