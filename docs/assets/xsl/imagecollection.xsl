@@ -20,8 +20,7 @@
            
             <head>
                 <title>
-                    <!-- add the title for the whole collection from the metadata in the common teiHeader. This is what will be shown
-                    on your browsers tab-->
+                   
                     <xsl:value-of select="//tei:teiCorpus/tei:teiHeader//tei:title"/>
                 </title>
                 <!-- load bootstrap css (requires internet!) so you can use their pre-defined css classes to style your html -->
@@ -34,12 +33,21 @@
                 <link rel="stylesheet" href="assets/css/desktop.css"/>
             </head>
             <body>
+                
+                
+                
+                
+                
+        
+                
                 <header>
                     <h1> <!-- We choose the contents of the html:title to be the same as the html:h1 -->
                         <xsl:apply-templates select="//tei:teiCorpus/tei:teiHeader//tei:title"/>
                     </h1>
                     
                     <p>
+                        
+                       Test test test
                         
                     </p>
                 </header>
@@ -96,6 +104,31 @@
                         alla TEI-element i din teiCorpus -->
                         <xsl:for-each select="/tei:teiCorpus/tei:TEI">
                             
+                            
+                           
+                           
+                           
+                           
+                           
+                           
+                           
+                            
+                            
+        
+   
+    
+   
+    
+
+
+
+
+
+
+
+
+
+                            
                          
                         <div class="row">
                             
@@ -113,7 +146,7 @@
                             
                         
                         
-                        
+               
                          
                         
                         
@@ -127,40 +160,38 @@
                                 
                                 
                                 
-                                
-                               
-                                    
-                                        <img width="500">
-                                            
-                                            <xsl:attribute name="src">
-                                                <xsl:value-of select="./tei:facsimile/tei:surface/tei:figure/tei:graphic[1]/@url"/>
-                                            </xsl:attribute>
-                                            <xsl:attribute name="title">
-                                                <xsl:value-of select="./tei:facsimile/tei:surface/tei:figure/tei:label"/>
-                                            </xsl:attribute>
-                                            <xsl:attribute name="alt">
-                                                <xsl:value-of select="./tei:facsimile/tei:surface/tei:figure/tei:figDesc"/>
-                                            </xsl:attribute>
-                                            
-                                        
+                                <xsl:for-each select=".//tei:graphic">
+                                    <img width="500">
+                                        <xsl:attribute name="src">
+                                            <xsl:value-of select="@url"/>
+                                        </xsl:attribute>
+                                        <xsl:attribute name="alt">
+                                            <xsl:text>Facsimilbild</xsl:text>
+                                        </xsl:attribute>
+                                    </img>
+                                </xsl:for-each>
+                            
                                     
                                        
-                                            
-                                        </img>
+                                
+                                
+                               
+                                
                                     
                                     
-                                    
+                              
                                     
                                    
                                 
                                 
                               
-                                
+                          
                                 
                                 
                             </article>
                             </div>
                             
+                       
                             
                             
                                 

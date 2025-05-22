@@ -1,9 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_corpus.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_corpus.rng" type="application/xml"
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_corpus.sch" type="application/xml"
 	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+
 <teiCorpus xmlns="http://www.tei-c.org/ns/1.0">
-    <teiHeader>
+  
+ 
+  <teiHeader>
        
         <fileDesc>
             <titleStmt>
@@ -83,13 +86,10 @@
 
 
 
-
-
-
-
-
-
+  
     <TEI xml:id="S1">
+     
+         
         <teiHeader>
             <fileDesc>
                 <titleStmt>
@@ -97,16 +97,16 @@
                     <author ref="https://www.opera.se/">Göteborgsoperan</author>
                 </titleStmt>
                 <publicationStmt>
-                    <p> </p>
+                    
                
                 <publisher> Bibliotekshögskolan i Borås </publisher>
-                    <authority> Göteborgsoperan </authority>
+                    <authority>Göteborgsoperan</authority>
                 </publicationStmt>
                 <sourceDesc>
                    <p>Lejonmask skapad för produktionen Kiss me Kate vid Göteborgsoperan.</p>
                     <p>Skada på pannan, samt fäste på baksida.</p>
                 </sourceDesc>
-                
+            </fileDesc>
                 <encodingDesc>
                     
                         <p>Bilfångst gjord med Canon EOS 600D, samt EOS xxxx. Bildfiler i CR2 konverterades till TIFF för arkivering samt JPG för publicering. 
@@ -117,7 +117,7 @@
                         </p>
                     
                 </encodingDesc>
-            </fileDesc>
+           
             
             <xenoData>
                
@@ -391,10 +391,11 @@
             </xenoData>
         </teiHeader>
         
+       
         <facsimile>
             <surface xml:id="lejonmask_drama">
                 <figure>
-                    <label>Dramatisk bild av lejonmask</label>
+                    
                     <figDesc>Lejonmask framifrån, dramatisk</figDesc>
                     <graphic xml:id="LejonmaskDrama"
                         url="https://raw.githubusercontent.com/linneawickanwickstrom/ProjektOpera/58f0eaf8d78be42f7b6c8f209b658d2b1403fba2/docs/assets/img/Mask1_Lejon/Mask1_Lejon_4.jpg"
@@ -402,66 +403,79 @@
                 </figure>
             </surface>
             
+      
+            
             <surface xml:id="lejonmask_front">
                 <figure>
-                    <label>Lejonmask 1</label>
+                    
                     <figDesc>Lejonmask fotograferad framifrån, fast ljussättning.</figDesc>
                     <graphic xml:id="lejonmaskFront"
                         url="https://raw.githubusercontent.com/linneawickanwickstrom/ProjektOpera/e1621e1193319348adb38f576b4459ee7bcca83f/docs/assets/img/Mask1_Lejon/Mask1_Lejon_2.jpg"/>
                 </figure>
             </surface>
-            
+       
             
             <surface xml:id="lejonmask_sida1">
                 <figure>
-                    <label>Lejonmask sida 1</label>
+                    
                     <figDesc>Lejonmask fotograferad från sida, fast ljussättning.</figDesc>
                     <graphic xml:id="lejonmasksida1"
                         url="https://raw.githubusercontent.com/linneawickanwickstrom/ProjektOpera/e1621e1193319348adb38f576b4459ee7bcca83f/docs/assets/img/Mask1_Lejon/Mask1_Lejon_1.jpg"/>
                 </figure>
             </surface>
+            
+        
                        
                     <surface xml:id="lejonmask_sida2">
                         <figure>
-                            <label>Lejonmask sida 2</label>
+                           
                             <figDesc>Lejonmask fotograferad från sida, fast ljussättning.</figDesc>
                             <graphic xml:id="lejonmasksida2"
                                 url="https://raw.githubusercontent.com/linneawickanwickstrom/ProjektOpera/482d04b5628b2f531c834ea0291571231d3ac7fd/docs/assets/img/Mask1_Lejon/Mask1_Lejon_3.jpg"/>
                         </figure>
                         
                     </surface>
+      
                         
                         <surface xml:id="lejonmask_detalj1">
                             <figure>
-                                <label>Lejonmask tänder</label>
-                                <figDesc> Detaljer av Lejonmask, fokus:tänder </figDesc>
+                              <figDesc> Detaljer av Lejonmask, fokus:tänder </figDesc>
                                 <graphic xml:id="lejonmaskdetalj1"
                                     url="https://raw.githubusercontent.com/linneawickanwickstrom/ProjektOpera/482d04b5628b2f531c834ea0291571231d3ac7fd/docs/assets/img/Mask1_Lejon/Mask1_Lejon_5.jpg" />
                             </figure>
                         </surface>
+            
+      
                             
                             <surface xml:id="lejonmask_detalj2">
                                 <figure>
-                                    <label>Lejonmask baksida</label>
+                                    
                                     <figDesc> Detaljer av Lejonmask, fokus:baksida </figDesc>
                                     <graphic xml:id="lejonmaskdetalj2"
                                         url="https://raw.githubusercontent.com/linneawickanwickstrom/ProjektOpera/482d04b5628b2f531c834ea0291571231d3ac7fd/docs/assets/img/Mask1_Lejon/Mask1_Lejon_6.jpg"/>
                                 </figure>
                             </surface>
+    
                                 
                                 <surface xml:id="lejonmask_detalj3">
                                     <figure>
-                                        <label>Lejonmask panna</label>
+                                        
                                         <figDesc> Detaljer av Lejonmask, fokus:panna/överdel </figDesc>
                                         <graphic xml:id="lejonmaskdetalj3"
                                            url="https://raw.githubusercontent.com/linneawickanwickstrom/ProjektOpera/482d04b5628b2f531c834ea0291571231d3ac7fd/docs/assets/img/Mask1_Lejon/Mask1_Lejon_7.jpg"/>
                                     </figure>
                                 </surface>
+            
         </facsimile>
-
-       
-          
+        
+        <text>
+           <body>
+               <div> <p></p> </div>
+           </body>
+        </text>
+    
     </TEI>
+          
     
    
    
@@ -469,25 +483,33 @@
    
    
     
-    <TEI xml:id="S2">
-       
+
+        <TEI xml:id="S2">
+            
             <teiHeader>
                 <fileDesc>
                     <titleStmt>
                         <title>Grismask</title>
                         <author ref="https://www.opera.se/">Göteborgsoperan</author>
                     </titleStmt>
+                    
+                    
                     <publicationStmt>
-                        <p> </p>
-                        
-                        <publisher> Bibliotekshögskolan i Borås </publisher>
+                       
+                   <publisher>
+                       Bibliotekshögskolan i Borås
+                       </publisher>
                         <authority> Göteborgsoperan </authority>
                     </publicationStmt>
+                    
+                    
                     <sourceDesc>
                         <p>Grismask skapad för produktionen Kratt vid Göteborgsoperan.</p>
                        
                     </sourceDesc>
-                    
+                </fileDesc>
+                
+                
                     <encodingDesc>
                         
                             <p>Bilfångst gjord med Canon EOS 600D, samt EOS xxxx. Bildfiler i CR2 konverterades till TIFF för arkivering samt JPG för publicering. 
@@ -498,7 +520,7 @@
                             </p>
                         
                     </encodingDesc>
-                </fileDesc>
+               
                 
                 <xenoData>
                    
@@ -777,7 +799,7 @@
         <facsimile>
             <surface xml:id="gris_drama">
                 <figure>
-                    <label>Dramatisk bild av grismask</label>
+                    
                     <figDesc>Grismask framifrån, dramatisk</figDesc>
                     <graphic xml:id="GrismaskDrama"
                         url="https://raw.githubusercontent.com/linneawickanwickstrom/ProjektOpera/482d04b5628b2f531c834ea0291571231d3ac7fd/docs/assets/img/Mask6_OndGris_4.jpg"
@@ -787,7 +809,7 @@
             
             <surface xml:id="Grismask_front">
                 <figure>
-                    <label>Grismask 1</label>
+                    
                     <figDesc>Grismask fotograferad framifrån, fast ljussättning.</figDesc>
                     <graphic xml:id="GrismaskFront"
                         url="https://raw.githubusercontent.com/linneawickanwickstrom/ProjektOpera/482d04b5628b2f531c834ea0291571231d3ac7fd/docs/assets/img/Mask6_OndGris_2.jpg"/>
@@ -797,7 +819,7 @@
             
             <surface xml:id="Grismask_sida1">
                 <figure>
-                    <label>grismask sida 1</label>
+                    
                     <figDesc>grismask fotograferad från sida, fast ljussättning.</figDesc>
                     <graphic xml:id="grismasksida1"
                         url="https://raw.githubusercontent.com/linneawickanwickstrom/ProjektOpera/482d04b5628b2f531c834ea0291571231d3ac7fd/docs/assets/img/Mask6_OndGris_1.jpg"/>
@@ -806,7 +828,7 @@
             
             <surface xml:id="Grismask_sida2">
                 <figure>
-                    <label>Grismask sida 2</label>
+                    
                     <figDesc>Grismask fotograferad från sida, fast ljussättning.</figDesc>
                     <graphic xml:id="Grismasksida2"
                         url="https://raw.githubusercontent.com/linneawickanwickstrom/ProjektOpera/482d04b5628b2f531c834ea0291571231d3ac7fd/docs/assets/img/Mask6_OndGris_3.jpg"/>
@@ -816,7 +838,7 @@
             
             <surface xml:id="Grismask_detalj1">
                 <figure>
-                    <label>Grismask tryne</label>
+                   
                     <figDesc> Detaljer av grismask, fokus:tryne </figDesc>
                     <graphic xml:id="grismaskdetalj1"
                         url="https://raw.githubusercontent.com/linneawickanwickstrom/ProjektOpera/482d04b5628b2f531c834ea0291571231d3ac7fd/docs/assets/img/Mask6_OndGris_6.jpg"/>
@@ -825,7 +847,7 @@
             
             <surface xml:id="grismask_detalj2">
                 <figure>
-                    <label>grismask bete</label>
+                    
                     <figDesc> Detaljer av grismask, fokus:bete </figDesc>
                     <graphic xml:id="grismaskdetalj2"
                         url="https://raw.githubusercontent.com//linneawickanwickstrom/ProjektOpera/482d04b5628b2f531c834ea0291571231d3ac7fd/docs/assets/img/Mask6_OndGris_5.jpgassets/img/Brev_fr_AM_27_6_1911_r_thumb.jpg"/>
@@ -834,20 +856,14 @@
            
         </facsimile>
         
+            <text>
+                <body>
+                    <div>
+                        <p/>
+                    </div>
+                </body>
+            </text>
        
-        
-   
-        
-        
-        
-      
-        <text>
-            <body>
-                <div>
-                    <p/>
-                </div>
-            </body>
-        </text>
     </TEI>
     
   
@@ -856,8 +872,8 @@
   
 
    
-    <TEI xml:id="S3">
-        
+            <TEI xml:id="S3">
+                 
         <teiHeader>
             <fileDesc>
                 <titleStmt>
@@ -865,15 +881,16 @@
                     <author ref="https://www.opera.se/">Göteborgsoperan</author>
                 </titleStmt>
                 <publicationStmt>
-                    <p> </p>
+                    <authority> Göteborgsoperan </authority>
                     
                     <publisher> Bibliotekshögskolan i Borås </publisher>
-                    <authority> Göteborgsoperan </authority>
+                   
                 </publicationStmt>
                 <sourceDesc>
                     <p>Guldig teatermask skapad för produktionen Den flygande Holländaren vid Göteborgsoperan.</p>
                     
                 </sourceDesc>
+            </fileDesc>
                 
                 <encodingDesc>
                     
@@ -884,7 +901,7 @@
                             Modell: Ellen Blåberg
                         </p>
                 </encodingDesc>
-            </fileDesc>
+           
             
             <xenoData>
                
@@ -1161,7 +1178,7 @@
         <facsimile>
             <surface xml:id="guldmask_drama">
                 <figure>
-                    <label>Dramatisk bild av guldmask</label>
+                    
                     <figDesc>Guldmask framifrån, dramatisk</figDesc>
                     <graphic xml:id="GuldmaskDrama"
                         url="https://raw.githubusercontent.com/linneawickanwickstrom/ProjektOpera/482d04b5628b2f531c834ea0291571231d3ac7fd/docs/assets/img/Mask8_GuldMedHorn_4.jpg"
@@ -1171,7 +1188,7 @@
             
             <surface xml:id="Guldmask_front">
                 <figure>
-                    <label>Guldmask 1</label>
+                    
                     <figDesc>Guldmask fotograferad framifrån, fast ljussättning.</figDesc>
                     <graphic xml:id="GuldmaskFront"
                         url="https://raw.githubusercontent.com/linneawickanwickstrom/ProjektOpera/2709ca6e6d37822cb7a8a5f1cac97cb71a68c15a/docs/assets/img/Mask8_GuldMedHorn_2.jpg"/>
@@ -1181,7 +1198,7 @@
             
             <surface xml:id="Guldmask_sida1">
                 <figure>
-                    <label>Guldmask sida 1</label>
+                    
                     <figDesc>Guldmask fotograferad från sida, fast ljussättning.</figDesc>
                     <graphic xml:id="guldmasksida1"
                         url="https://raw.githubusercontent.com/linneawickanwickstrom/ProjektOpera/2709ca6e6d37822cb7a8a5f1cac97cb71a68c15a/docs/assets/img/Mask8_GuldMedHorn_1.jpg"/>
@@ -1190,7 +1207,7 @@
             
             <surface xml:id="guldmask_sida2">
                 <figure>
-                    <label>Guldmask sida 2</label>
+                    
                     <figDesc>Guldmask fotograferad från sida, fast ljussättning.</figDesc>
                     <graphic xml:id="Guldmasksida2"
                         url="https://raw.githubusercontent.com/linneawickanwickstrom/ProjektOpera/2709ca6e6d37822cb7a8a5f1cac97cb71a68c15a/docs/assets/img/Mask8_GuldMedHorn_3.jpg"/>
@@ -1200,7 +1217,7 @@
             
             <surface xml:id="guldmask_detalj1">
                 <figure>
-                    <label>guldmask kind </label>
+                    
                     <figDesc> Detaljer av guldmask, fokus:kind </figDesc>
                     <graphic xml:id="guldmaskdetalj1"
                         url="https://raw.githubusercontent.com/linneawickanwickstrom/ProjektOpera/2709ca6e6d37822cb7a8a5f1cac97cb71a68c15a/docs/assets/img/Mask8_GuldMedHorn_5.jpg"/>
@@ -1209,7 +1226,7 @@
             
             <surface xml:id="guldmask_detalj2">
                 <figure>
-                    <label>guldmask panna</label>
+                   
                     <figDesc> Detaljer av guldmask, fokus:broderi panna </figDesc>
                     <graphic xml:id="guldmaskdetalj2"
                         url="https://raw.githubusercontent.com/linneawickanwickstrom/ProjektOpera/2709ca6e6d37822cb7a8a5f1cac97cb71a68c15a/docs/assets/img/Mask8_GuldMedHorn_6.jpg"/>
@@ -1218,14 +1235,13 @@
             
             <surface xml:id="guldmask_detalj3">
                 <figure>
-                    <label>Guldmask horn</label>
+                    
                     <figDesc> Detaljer av guldmask, fokus:horn </figDesc>
                     <graphic xml:id="guldmaskdetalj3"
                         url="https://raw.githubusercontent.com/linneawickanwickstrom/ProjektOpera/4fd5a97969494a1bfe4395034cf735e347633524/docs/assets/img/Mask8_GuldMedHorn_7.jpg"/>
                 </figure>
             </surface>
         </facsimile>
-        
         
       
         <text>
@@ -1235,9 +1251,7 @@
                 </div>
             </body>
         </text>
+                
     </TEI>
-    
-    
    
-    <!-- More TEI Documents -->
 </teiCorpus>
