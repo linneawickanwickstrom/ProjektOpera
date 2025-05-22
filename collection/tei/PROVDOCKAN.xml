@@ -489,8 +489,8 @@
                     <label>Dramatisk bild av lejonmask</label>
                     <figDesc>Lejonmask framifrån, dramatisk</figDesc>
                     <graphic xml:id="LejonmaskDrama"
-                        url="C:\Users\Linnea\Documents\GitHub\ImageCollection\docs\assets\img\Mask1_Lejon\Mask1_Lejon_4.jpg"/>
-
+                        url="https://raw.githubusercontent.com/linneawickanwickstrom/ProjektOpera/58f0eaf8d78be42f7b6c8f209b658d2b1403fba2/docs/assets/img/Mask1_Lejon/Mask1_Lejon_4.jpg"
+                     />
                 </figure>
             </surface>
             
