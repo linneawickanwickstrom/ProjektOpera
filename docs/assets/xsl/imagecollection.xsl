@@ -246,6 +246,11 @@
                                     </p>
                                     </xsl:if>
                                     
+                                    
+                                    
+       
+                                    
+                                    
                                 </article>
                               
                             </div>
@@ -262,7 +267,7 @@
                         </a>
                       </div>
                       <div>
-                         2025 Wout Dillen with revisions for image collections 2024 by Mikael Gunnarsson.
+                         2025 Klara Asklund, Ellen Blåberg och Linnéa Wickström
                       </div>
                     </div>
                 </div>
