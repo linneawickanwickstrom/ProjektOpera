@@ -48,18 +48,18 @@
             <projectDesc> 
                 <p>Projekt med syfte att digitalisera masker tillhörande Göteborgsoperan.</p>
                 <p>Digitaliseringprojekt som del av kursen "Digitalisering för bevarande och tillgänglighet" vid Bibliotekshögskolan i Borås.</p>
-               
+                <p>Bilfångst gjord med Canon EOS 600D. Bildfiler i CR2 konverterades till TIFF för arkivering samt JPG för möjlig publicering. 
+                    Efterbehandladling i Photoshop för färgkorrigering, beskärning och inbäddad metadata. 
+                </p>
             </projectDesc>
             
             <samplingDecl>
                 <p> Urval av masker från Göteborgsoperan har skett utifrån hantverksmässighet och projektets möjlighet att göra objekten rättvisa. </p>
             </samplingDecl>
             
-            <techDesc>
-                <p>Bilfångst gjord med Canon EOS 600D. Bildfiler i CR2 konverterades till TIFF för arkivering samt JPG för möjlig publicering. 
-                   Efterbehandladling i Photoshop för färgkorrigering, beskärning och inbäddad metadata. 
-                   </p>
-            </techDesc>
+            
+                
+            
         </encodingDesc>
         
         
@@ -108,14 +108,14 @@
                 </sourceDesc>
                 
                 <encodingDesc>
-                    <techDesc>
+                    
                         <p>Bilfångst gjord med Canon EOS 600D, samt EOS xxxx. Bildfiler i CR2 konverterades till TIFF för arkivering samt JPG för publicering. 
                             Efterbehandladling i Photoshop för färgkorrigering, beskärning och inbäddad metadata. 
                             Fotograf bild 1-3: Klara Asklund
                             Fotograf bild 4-7: Linnéa Wickström
                             Modell: Ellen Blåberg
                         </p>
-                    </techDesc>
+                    
                 </encodingDesc>
             </fileDesc>
             
@@ -193,12 +193,7 @@
         </facsimile>
 
        
-            <body>
-                <div>
-                    <p/>
-                </div>
-            </body>
-     
+          
     </TEI>
     
    
@@ -227,14 +222,14 @@
                     </sourceDesc>
                     
                     <encodingDesc>
-                        <techDesc>
+                        
                             <p>Bilfångst gjord med Canon EOS 600D, samt EOS xxxx. Bildfiler i CR2 konverterades till TIFF för arkivering samt JPG för publicering. 
                                 Efterbehandladling i Photoshop för färgkorrigering, beskärning och inbäddad metadata. 
                                 Fotograf bild 1-3: Klara Asklund
                                 Fotograf bild 4-7: Linnéa Wickström
                                 Modell: Ellen Blåberg
                             </p>
-                        </techDesc>
+                        
                     </encodingDesc>
                 </fileDesc>
                 
@@ -347,14 +342,13 @@
                 </sourceDesc>
                 
                 <encodingDesc>
-                    <techDesc>
+                    
                         <p>Bilfångst gjord med Canon EOS 600D, samt EOS xxxx. Bildfiler i CR2 konverterades till TIFF för arkivering samt JPG för publicering. 
                             Efterbehandladling i Photoshop för färgkorrigering, beskärning och inbäddad metadata. 
                             Fotograf bild 1-3: Klara Asklund
                             Fotograf bild 4-7: Linnéa Wickström
                             Modell: Ellen Blåberg
                         </p>
-                    </techDesc>
                 </encodingDesc>
             </fileDesc>
             
