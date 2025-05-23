@@ -17,31 +17,36 @@
               
             </titleStmt>
             
-            <extent>xxx GB</extent>
-            
             <publicationStmt>
                 
                 <publisher> Bibliotekshögskolan i Borås </publisher>
                 <pubPlace> GitHub </pubPlace>
                 <date when="2025-05">Maj 2025</date>
                 <availability>
-                    <p> Vid publicering skall Göteborgsoperans namn alltid utsättas vid bilden
+                    <p> Vid publicering skall Göteborgsoperans namn alltid uppges vid bilden
                         eller anges i bildförteckningen. </p>
                 </availability>
                 
-                <authority> Göteborgsoperan </authority>
+                <authority> Ellen Blåberg, Linnéa Wickström och Klara Asklund </authority>
+                <address>
+                    
+                    <addrLine>  Amandas Gård 13 </addrLine>
+                    <addrLine>41483</addrLine>
+                        <addrLine>Göteborg</addrLine>
+                     </address>
                 
             </publicationStmt>
             
             <sourceDesc>
                 
-                <p> Samlingen består av tolv masker som använts vid olika produktioner vid Göteborgsoperan.
+                <p> Samlingen består av tolv olika typer av masker från Göteborgsoperan.
+                    Maskerna har skapats för och använts i operans produktioner (dans, musikal och opera).
                     
-             </p>
+             
                 
-                <p>Maskerna är vid digitaliseringstillfället i gott skick, med undantag för ett par masker med synliga skador. </p>
+                Maskerna var vid digitaliseringstillfället i gott skick, med undantag för ett par masker med synliga skador.
                 
-                <p>Maskerna återfinns i Göteborgsoperans rekvisitaförråd.</p>
+               Maskerna återfinns i Göteborgsoperans rekvisitaförråd.</p>
                 
             </sourceDesc>
             
@@ -49,15 +54,16 @@
         
         <encodingDesc>
             <projectDesc> 
-                <p>Projekt med syfte att digitalisera masker tillhörande Göteborgsoperan.</p>
-                <p>Digitaliseringprojekt som del av kursen "Digitalisering för bevarande och tillgänglighet" vid Bibliotekshögskolan i Borås.</p>
-                <p>Bilfångst gjord med Canon EOS 600D. Bildfiler i CR2 konverterades till TIFF för arkivering samt JPG för möjlig publicering. 
+                <p>Digitaliseringsprojekt med syfte att bevara och tillgängliggöra masker tillhörande Göteborgsoperan.
+                Projektet är en del av kursen "Digitalisering för bevarande och tillgänglighet" vid Bibliotekshögskolan i Borås. 
+                
+               Bilfångst gjord med Canon EOS 600D. Bildfiler i CR2 konverterades till TIFF för arkivering samt JPG för eventuell publicering. 
                     Efterbehandladling i Photoshop för färgkorrigering, beskärning och inbäddad metadata. 
                 </p>
             </projectDesc>
             
             <samplingDecl>
-                <p> Urval av masker från Göteborgsoperan har skett utifrån hantverksmässighet och projektets möjlighet att göra objekten rättvisa. </p>
+                <p> Urval av masker har skett utifrån hantverksmässighet och projektets möjlighet att göra objekten rättvisa. </p>
             </samplingDecl>
             
             
@@ -94,13 +100,15 @@
             <fileDesc>
                 <titleStmt>
                     <title>Lejonmask</title>
-                    <author ref="https://www.opera.se/">Göteborgsoperan</author>
+                    <author> Linnéa Wickström</author>
+                    <author> Ellen Blåberg</author>
+                    <author>  Klara Asklund </author>
                 </titleStmt>
                 <publicationStmt>
                     
                
                 <publisher> Bibliotekshögskolan i Borås </publisher>
-                    <authority>Göteborgsoperan</authority>
+                    <authority> Göteborgsoperan</authority>
                 </publicationStmt>
                 <sourceDesc>
                    <p>Lejonmask skapad för produktionen Kiss me Kate vid Göteborgsoperan.</p>
