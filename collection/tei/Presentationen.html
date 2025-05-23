@@ -9,63 +9,27 @@
       <link rel="stylesheet" href="assets/css/desktop.css">
       
       <style>
-    #lejonmaskCarousel {
-  max-width: 600px;
-  margin: 0 auto;
-}
-
-.carousel-inner {
-  overflow: visible; /* Undvik beskärning */
-}
-
-.carousel-inner img {
-  max-width: 100%;
-  height: auto;
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-}
- 
-  
-     
-
-    #grismaskCarousel {
+         
+   #lejonmaskCarousel,
+  #grismaskCarousel,
+  #guldmaskCarousel {
     max-width: 600px;
-  margin: 0 auto;
-}
+    margin: 0 auto; /* Karusellen är fortfarande centrerad, men bilderna inuti ligger till vänster */
+  }
 
-.carousel-inner {
-  overflow: visible; /* Undvik beskärning */
-}
+  .carousel-inner {
+    overflow: visible; /* Undvik beskärning */
+  }
 
-.carousel-inner img {
-  max-width: 100%;
-  height: auto;
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-}
+  .carousel-inner img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0; /* Inga automatiska marginaler = vänsterjusterat */
+  }
 
-
-
-
-#guldmaskCarousel {
- max-width: 600px;
-  margin: 0 auto;
-}
-
-.carousel-inner {
-  overflow: visible; /* Undvik beskärning */
-}
-
-.carousel-inner img {
-  max-width: 100%;
-  height: auto;
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-}
-  
+         
+   
    h1 { text-align: center;
     font-weight: bold;
     font-size:18pt;
@@ -164,6 +128,7 @@
                         </a>
                      </div>
                   </article>
+               </div>
                   
                   
                   
@@ -171,7 +136,7 @@
                
                          
 
-               </div>
+            
              
                
                <div class="col-sm">
@@ -242,11 +207,11 @@
                            </div>
                            
                            <!-- Kontroller -->
-                           <a class="carousel-control-prev" href="#lejonmaskCarousel" role="button" data-slide="prev">
+                           <a class="carousel-control-prev" href="#grismaskCarousel" role="button" data-slide="prev">
                               <span class="carousel-control-prev-icon" aria-hidden="true"></span>
                               <span class="sr-only">Föregående</span>
                            </a>
-                           <a class="carousel-control-next" href="#lejonmaskCarousel" role="button" data-slide="next">
+                           <a class="carousel-control-next" href="#grismaskCarousel" role="button" data-slide="next">
                               <span class="carousel-control-next-icon" aria-hidden="true"></span>
                               <span class="sr-only">Nästa</span>
                            </a>
@@ -275,7 +240,8 @@
                      <p><span style="font-weight:bold">Modell: </span>Ellen Blåberg</p>
                   </article>
                </div>
-            </div>
+                  </div>
+            
             
             
             
@@ -323,17 +289,18 @@
                            </div>
                            
                            <!-- Kontroller -->
-                           <a class="carousel-control-prev" href="#lejonmaskCarousel" role="button" data-slide="prev">
+                           <a class="carousel-control-prev" href="#guldmaskCarousel" role="button" data-slide="prev">
                               <span class="carousel-control-prev-icon" aria-hidden="true"></span>
                               <span class="sr-only">Föregående</span>
                            </a>
-                           <a class="carousel-control-next" href="#lejonmaskCarousel" role="button" data-slide="next">
+                           <a class="carousel-control-next" href="#guldmaskCarousel" role="button" data-slide="next">
                               <span class="carousel-control-next-icon" aria-hidden="true"></span>
                               <span class="sr-only">Nästa</span>
                            </a>
                         </div>
+                    
                      </article>
-                 
+                  </div>
                      
                      
                      
@@ -360,8 +327,10 @@
                   </article>
                </div>
             </div>
-         </div>
-      </main>
+         
+
+      
+      
       <footer id="footer">
          <div class="row">
             <div class="col">
