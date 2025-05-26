@@ -108,20 +108,27 @@
                     
                
                 <publisher> Bibliotekshögskolan i Borås </publisher>
-                    <authority> Göteborgsoperan</authority>
+                    <authority> Ellen Blåberg, Linnéa WIckström och Klara Asklund</authority>
+                    
                 </publicationStmt>
                 <sourceDesc>
-                   <p>Lejonmask skapad för produktionen Kiss me Kate vid Göteborgsoperan.</p>
-                    <p>Skada på pannan, samt fäste på baksida.</p>
+                    
+                   <p>Lejonmask skapad för produktionen Kiss me Kate vid Göteborgsoperan.
+                    Skada på pannan, samt fäste på baksida. 
+                   Material: Papier-Maché, halm, ståltråd, gips, akrylfärg. </p>
+                    
+                    
                 </sourceDesc>
             </fileDesc>
                 <encodingDesc>
                     
-                        <p>Bilfångst gjord med Canon EOS 600D, samt EOS xxxx. Bildfiler i CR2 konverterades till TIFF för arkivering samt JPG för publicering. 
+                        <p>Bilfångst gjord under april år 2025, med Canon EOS 600D, samt EOS xxxx. Bildfiler i CR2 konverterades till TIFF för arkivering samt JPG för publicering. 
                             Efterbehandladling i Photoshop för färgkorrigering, beskärning och inbäddad metadata. 
                             Fotograf bild 1-3: Klara Asklund
                             Fotograf bild 4-7: Linnéa Wickström
                             Modell: Ellen Blåberg
+                            
+                          
                         </p>
                     
                 </encodingDesc>
@@ -498,7 +505,9 @@
                 <fileDesc>
                     <titleStmt>
                         <title>Grismask</title>
-                        <author ref="https://www.opera.se/">Göteborgsoperan</author>
+                        <author> Linnéa Wickström</author>
+                        <author> Ellen Blåberg</author>
+                        <author>  Klara Asklund </author>
                     </titleStmt>
                     
                     
@@ -507,12 +516,14 @@
                    <publisher>
                        Bibliotekshögskolan i Borås
                        </publisher>
-                        <authority> Göteborgsoperan </authority>
+                        <authority> Ellen Blåberg, Linnéa Wickström och Klara Asklund</authority> 
                     </publicationStmt>
                     
                     
                     <sourceDesc>
-                        <p>Grismask skapad för produktionen Kratt vid Göteborgsoperan.</p>
+                        <p>Grismask skapad för dansproduktionen Kratt vid Göteborgsoperan.
+                            Material: Gips, resår, akrylfärg, trikåtyg, bomullstyg, ståltråd, skumgummi.
+                        </p>
                        
                     </sourceDesc>
                 </fileDesc>
@@ -520,7 +531,7 @@
                 
                     <encodingDesc>
                         
-                            <p>Bilfångst gjord med Canon EOS 600D, samt EOS xxxx. Bildfiler i CR2 konverterades till TIFF för arkivering samt JPG för publicering. 
+                            <p>Bilfångst gjord i april år 2025, med Canon EOS 600D, samt EOS xxxx. Bildfiler i CR2 konverterades till TIFF för arkivering samt JPG för publicering. 
                                 Efterbehandladling i Photoshop för färgkorrigering, beskärning och inbäddad metadata. 
                                 Fotograf bild 1-3: Klara Asklund
                                 Fotograf bild 4-7: Linnéa Wickström
@@ -867,7 +878,7 @@
             <text>
                 <body>
                     <div>
-                        <p/>
+                        <p></p>
                     </div>
                 </body>
             </text>
@@ -886,23 +897,28 @@
             <fileDesc>
                 <titleStmt>
                     <title>Guldmask</title>
-                    <author ref="https://www.opera.se/">Göteborgsoperan</author>
+                    <author> Linnéa Wickström</author>
+                    <author> Ellen Blåberg</author>
+                    <author> Klara Asklund </author>
                 </titleStmt>
+                
                 <publicationStmt>
-                    <authority> Göteborgsoperan </authority>
+                 <authority> Ellen Blåberg, Linnéa WIckström och Klara Asklund</authority>
                     
                     <publisher> Bibliotekshögskolan i Borås </publisher>
                    
                 </publicationStmt>
                 <sourceDesc>
-                    <p>Guldig teatermask skapad för produktionen Den flygande Holländaren vid Göteborgsoperan.</p>
+                    <p>Guldig teatermask skapad för produktionen Den flygande Holländaren vid Göteborgsoperan.
+                    Material: plast, Appliquespets, metallelement, resår. </p>
                     
                 </sourceDesc>
+                
             </fileDesc>
                 
                 <encodingDesc>
                     
-                        <p>Bilfångst gjord med Canon EOS 600D, samt EOS xxxx. Bildfiler i CR2 konverterades till TIFF för arkivering samt JPG för publicering. 
+                        <p>Bilfångst gjord i april år 2025, med Canon EOS 600D, samt EOS xxxx. Bildfiler i CR2 konverterades till TIFF för arkivering samt JPG för publicering. 
                             Efterbehandladling i Photoshop för färgkorrigering, beskärning och inbäddad metadata. 
                             Fotograf bild 1-3: Klara Asklund
                             Fotograf bild 4-7: Linnéa Wickström
@@ -1255,7 +1271,7 @@
         <text>
             <body>
                 <div>
-                    <p/>
+                   <p></p> 
                 </div>
             </body>
         </text>
